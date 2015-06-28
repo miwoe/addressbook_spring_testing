@@ -1,5 +1,5 @@
 <h1>Introduction</h1>
-<p>This application is built by Maven. Please import the project in your favorite IDE. The application needs at least Java 1.7.</p>
+<p>Please import the project in your favorite IDE. The application needs at least Java 1.7. Maven is used for build and dependency management.</p>
 
 <h2>To run the application</h2> 
 <p>start the mwo.addressbook.ui.Bootstrap class. You can do it via IDE or creating an executable jar (see below). 
