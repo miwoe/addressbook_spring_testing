@@ -19,7 +19,8 @@ You need to provide the address book file as a parameter for the main method. Yo
 addressbook\target\addressbook-0.0.1-SNAPSHOT-jar-with-dependencies.jar<br/>
 <p>Tu run via console, do the following:<p>
 <ul>
-<li>Run mvn package in the root project folder</li>
-<li>Run the application with: java -jar target/addressbook-0.0.1-SNAPSHOT-jar-with-dependencies.jar ~absolute-path-of-addressbook-file~</li>
+<li>Go to the root folder of the project</li>
+<li>mvn package</li>
+<li>java -jar target/addressbook-0.0.1-SNAPSHOT-jar-with-dependencies.jar ~absolute-path-of-addressbook-file~</li>
 </ul> 
 
