@@ -11,7 +11,7 @@ It contains the main method which</p>
 <p>
 You need to provide the address book file as a parameter for the main method. You will find the example from the task in root folder of the project.
 </p>
-<h2>To run test application test cases, </h2>
+<h2>To run test application test cases </h2>
 <p>use maven test goal or start tests via IDE.</p>
 
 <h2>Create executable jar</h2>
@@ -20,10 +20,6 @@ addressbook\target\addressbook-0.0.1-SNAPSHOT-jar-with-dependencies.jar<br/>
 <p>Tu run via console, do the following:<p>
 <ul>
 <li>Run mvn package in the root project folder</li>
-<li>Run the application with: java -jar target/addressbook-0.0.1-SNAPSHOT-jar-with-dependencies.jar ~absolute-path-of-addressbook-file~<li>
+<li>Run the application with: java -jar target/addressbook-0.0.1-SNAPSHOT-jar-with-dependencies.jar ~absolute-path-of-addressbook-file~</li>
 </ul> 
 
-<h2>Some statements</h2>
-<p>I have decided to implement like in a typical three layered application (ui, service, data), although I am not using any kind of database or the complexity of applicaton logic is very high. The addresses are handled in memory. Therefore, I had to implement the search functions on my own. Of course, I could made the decision to run a database like h2 or mongodb which takes over the search work...</p>
-
-<p>Sadly, I would describe myself as not very experienced in testing strategies. In former projects, the leads haven't appreciated unit/integration testing much. But I have bundled all my testing experience and the result shows now how I would start to test in a professional development environment. In a web context, I would also introduce tools like Selenium or Protractor/Jasmine and perform EndToEnd tests.</p>
