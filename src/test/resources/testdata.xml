@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name="address1" class="mwo.addressbook.model.Address">
+		<property name="birthdate" value="01/08/62"/>
+		<property name="fullName" value="Peter Parker"/>
+		<property name="gender" value="MALE"/>
+	</bean>
+	<bean name="address2" class="mwo.addressbook.model.Address">
+		<property name="birthdate" value="01/05/62"/>
+		<property name="fullName" value="Bruce Banner"/>
+		<property name="gender" value="MALE"/>
+	</bean>
+	<bean name="address3" class="mwo.addressbook.model.Address">
+		<property name="birthdate" value="01/06/10"/>
+		<property name="fullName" value="Hit Girl"/>
+		<property name="gender" value="FEMALE"/>
+	</bean>
+	<bean name="DreiAddressen" class="mwo.addressbook.model.AddressesInMemory">
+		<property name="addressList">
+			<list>
+				<ref bean="address1"/>
+				<ref bean="address2"/>
+				<ref bean="address3"/>
+			</list>
+		</property>
+
+	</bean>
+</beans>
